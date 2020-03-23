@@ -1,0 +1,26 @@
+.box {
+  display: inline-block;
+  width: 110px;
+  height: 120px;
+  position: relative;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.133) 0px 6.4px 14.4px 0px, rgba(0, 0, 0, 0.11) 0px 1.2px 3.6px 0px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #000;
+  text-align:center;
+}
+h1 {
+  text-align: center;
+}
+table {
+ text-align: left;
+}
+.user-table {
+  overflow-y: scroll;
+  height: 450px;
+}
+.arg-body__content {
+  width:100%;
+  padding:20px;
+}

@@ -1,0 +1,50 @@
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+html { font-size: 14px; }
+
+@media (min-width: 768px) {
+    html { font-size: 16px; }
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+
+.navbar.navbar-dark {
+    background-color: #666;
+}
+
+nav + .ms-FocusZone{
+    display: inline-block
+}
+
+/*Side Navigation*/
+.arg-body__aside {
+    background-color: #e6e6e6;
+}
+.arg-body__aside ul.ms-Nav-navItems > .ms-Nav-navItem {
+    border-bottom: 1px solid #ddd;
+}
+.arg-body__aside ul.ms-Nav-navItems > .ms-Nav-navItem .ms-Nav-chevronButton {
+    width: 98%;
+}
+.arg-body__aside .ms-Icon {
+    font-weight: bold;
+}
+.arg-body__aside .ms-Nav-chevron {
+    opacity: 0.1;
+}
+.arg-body__aside .ms-Nav-link {
+    padding-left: 10px;
+    font-weight: 500;
+}
+.arg-body__aside .ms-Nav-link:hover {
+    text-decoration: none;
+}
+.arg-body__aside ul.ms-Nav-navItems > .ms-Nav-navItem ul.ms-Nav-navItems > .ms-Nav-navItem .ms-Nav-link {
+    padding-left: 35px;
+    font-weight: normal;
+}
